@@ -7,7 +7,7 @@ const MyNav=()=>{
         <Navbar.Brand href="#home"><h1>StriviBook </h1>  </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Nav className="mr-auto ">
-                <Link className='nav-link text-dark' to='/register'>Registration</Link>
+                <Link className='nav-link text-dark ' to='/register'>Registration</Link>
             </Nav>
         </Navbar>
     )
